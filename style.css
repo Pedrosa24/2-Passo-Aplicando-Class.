@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+}
+
+h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-shadow: 2px 2px 5px violet;
+    text-align: center;
+    border: 15px double black;
+    margin-top: 50px;
+}
+
+h2{
+    color: red;
+    font-style: oblique;
+    text-align: center;  
+    margin-top: 10px;
+    line-height: 250%
+}
+
+.paragrafo-inicial{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-top: 100px;
+    margin-left: 40px;    
+    line-height: 180%
+}
+
+.contêiner{
+    display: flex; /*define se um elemento é tratado como um bloco ou elemento inline-O layout flexível permite que os elementos responsivos dentro de um contêiner sejam organizados automaticament */
+    justify-content: center;
+    align-items: center;
+    height: 150vh; /* Define a altura do contêiner para ocupar toda a altura da tela */
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 100px;
+    line-height: 180%
+}
+
+li{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;    
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+p{
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    line-height: 250%;         
+}
+
